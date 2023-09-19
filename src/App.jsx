@@ -1,18 +1,27 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import SideLinks from "./components/SideLinks";
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+import ParticlesBG from "./components/ParticlesBg";
 
 function App() {
+  async function loadParticles(main) {
+    await loadFull(main);
+  }
   return (
-    <div className="p-8 grid grid-cols-8 grid-rows-2 h-screen">
-      <Header className="col-span-4" />
-      <SideLinks className="col-span-4" />
-      <Navbar className="grid self-end" />
-    </div>
+    <>
+      <ParticlesBG />
+      <div className="p-10 grid h-screen text-white font-serif">
+        <div className="flex justify-between">
+          <Header />
+          <SideLinks />
+        </div>
+        <Navbar />
+      </div>
+    </>
   );
 }
 
