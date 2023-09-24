@@ -2,7 +2,7 @@ import React, { Children } from "react";
 import { BiLinkExternal } from "react-icons/bi";
 import { AiOutlineCode } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import Layout from "../components/Layout";
+import Layout from "../components/AnimatedLayout";
 
 function ProjectLayout({ title }) {
   return (
@@ -22,7 +22,7 @@ function ProjectLayout({ title }) {
         </div>
       </div>
       <div className="grid grid-cols-2 mx-4 gap-4">
-        <div className="img bg-white h-96"></div>
+        <div className="img bg-white h-64"></div>
         <div className=" description gap-2">
           <div className="text-2xl pb-4">Summary:</div>
           <div>

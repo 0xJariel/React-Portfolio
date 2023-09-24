@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectLayout from "./ProjectLayout";
-import AnimatedPage from "../components/AnimatedPage";
 
 function PomodoroBeats() {
   const title = "";
@@ -10,11 +9,7 @@ function PomodoroBeats() {
   const techStack = "";
   const img = "";
 
-  return (
-    <AnimatedPage>
-      <ProjectLayout title={"Pomodoro Beats"} />
-    </AnimatedPage>
-  );
+  return <ProjectLayout title={"Pomodoro Beats"} />;
 }
 
 export default PomodoroBeats;
