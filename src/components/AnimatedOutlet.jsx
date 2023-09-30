@@ -1,12 +1,17 @@
 import { AnimatePresence } from "framer-motion";
 import React from "react";
-import { Outlet, useLocation } from "react-router-dom";
+import { Outlet, useLocation, useOutlet } from "react-router-dom";
 
 function AnimatedOutlet() {
+  const element = useOutlet();
   const location = useLocation();
   return (
     <AnimatePresence mode="await">
-      <Outlet key={location.pathname} location={location} />
+      {element &&
+        React.cloneElement(element, {
+          key: location.pathname,
+          location: location,
+        })}
     </AnimatePresence>
   );
 }
