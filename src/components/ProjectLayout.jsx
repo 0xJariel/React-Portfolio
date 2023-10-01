@@ -1,8 +1,7 @@
 import React, { Children } from "react";
 import { BiLinkExternal } from "react-icons/bi";
 import { AiOutlineCode } from "react-icons/ai";
-import { Link } from "react-router-dom";
-import Layout from "../components/AnimatedLayout";
+import Layout from "./AnimatedLayout";
 
 function ProjectLayout({ title }) {
   return (

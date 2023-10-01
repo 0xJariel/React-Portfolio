@@ -7,6 +7,7 @@ import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import ClayCanvas from "./pages/ClayCanvas.jsx";
 import PomodoroBeats from "./pages/PomodoroBeats.jsx";
+import YouWhen from "./pages/PomodoroBeats.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
       { path: "contact", element: <Contact /> },
       { path: "clay-canvas", element: <ClayCanvas /> },
       { path: "pomodoro-beats", element: <PomodoroBeats /> },
+      { path: "youwhen", element: <YouWhen /> },
     ],
     errorElement: <Error />,
   },

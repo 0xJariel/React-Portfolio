@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectLayout from "../components/ProjectLayout";
 
-function YouWhen() {
+function PomodoroBeats() {
   const title = "";
   const previewLink = "";
   const codeLink = "";
@@ -9,7 +9,7 @@ function YouWhen() {
   const techStack = "";
   const img = "";
 
-  return <ProjectLayout title={"Pomodoro Beats"} />;
+  return <ProjectLayout title={"YouWhen"} />;
 }
 
-export default YouWhen;
+export default PomodoroBeats;

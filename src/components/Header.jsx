@@ -2,9 +2,9 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="text-7xl">
+    <div className="text-6xl">
       <div>Jariel Arias</div>
-      <div>Full Stack Developer</div>
+      <div className="pl-8">Full Stack Developer</div>
     </div>
   );
 }

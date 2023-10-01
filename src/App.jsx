@@ -15,7 +15,7 @@ export default function App() {
     <>
       <ParticlesBG />
       <AnimatedOutlet />
-      <div className="p-12 grid h-screen text-white font-serif">
+      <div className="p-12 grid h-screen text-white font-serif fixed z-0 w-full">
         <div className="flex justify-between">
           <Header />
           <SideLinks />
