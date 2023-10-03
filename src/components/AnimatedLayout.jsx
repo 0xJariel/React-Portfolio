@@ -14,7 +14,7 @@ function Layout({ children, title }) {
         damping: 20,
       }}
       exit={{ x: 100, opacity: 0 }}
-      className="absolute grid top-0 bottom-0 right-0 left-52 text-white z-50"
+      className="absolute grid top-0 bottom-0 right-0 left-52 text-white z-50 "
     >
       <div className="p-10 popup bg-stone-800  mt-52 rounded-3xl mx-auto w-10/12 min-h-4/6">
         <div className="heading text-4xl flex justify-between">
