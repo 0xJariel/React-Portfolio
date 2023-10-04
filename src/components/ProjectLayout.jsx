@@ -10,7 +10,7 @@ function ProjectLayout({ title, img, summary, link, code }) {
         <div className="flex">
           Live Preview:
           <span className="grid items-center pl-2">
-            <a rel={"external"} href={link}>
+            <a rel={"external"} href={link} target="_blank">
               <BiLinkExternal className="" />
             </a>
           </span>
@@ -18,7 +18,7 @@ function ProjectLayout({ title, img, summary, link, code }) {
         <div className="flex">
           Code:
           <span className="grid items-center pl-2">
-            <a rel={"external"} href={code}>
+            <a rel="external" href={code} target="_blank">
               <AiOutlineCode />
             </a>
           </span>
