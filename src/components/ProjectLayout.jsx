@@ -3,20 +3,24 @@ import { BiLinkExternal } from "react-icons/bi";
 import { AiOutlineCode } from "react-icons/ai";
 import Layout from "./AnimatedLayout";
 
-function ProjectLayout({ title, img, summary }) {
+function ProjectLayout({ title, img, summary, link, code }) {
   return (
     <Layout title={title}>
       <div className="pt-4 mx-4 flex gap-8 text-2xl mb-6">
         <div className="flex">
           Live Preview:
           <span className="grid items-center pl-2">
-            <BiLinkExternal className="" />
+            <a rel={"external"} href={link}>
+              <BiLinkExternal className="" />
+            </a>
           </span>
         </div>
         <div className="flex">
           Code:
           <span className="grid items-center pl-2">
-            <AiOutlineCode />
+            <a rel={"external"} href={code}>
+              <AiOutlineCode />
+            </a>
           </span>
         </div>
       </div>
