@@ -7,7 +7,7 @@ import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import ClayCanvas from "./pages/ClayCanvas.jsx";
 import PomodoroBeats from "./pages/PomodoroBeats.jsx";
-import YouWhen from "./pages/PomodoroBeats.jsx";
+import YouWhen from "./pages/YouWhen.jsx";
 
 const router = createBrowserRouter([
   {

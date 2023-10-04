@@ -3,7 +3,7 @@ import { BiLinkExternal } from "react-icons/bi";
 import { AiOutlineCode } from "react-icons/ai";
 import Layout from "./AnimatedLayout";
 
-function ProjectLayout({ title }) {
+function ProjectLayout({ title, img, summary }) {
   return (
     <Layout title={title}>
       <div className="pt-4 mx-4 flex gap-8 text-2xl mb-6">
@@ -20,16 +20,13 @@ function ProjectLayout({ title }) {
           </span>
         </div>
       </div>
-      <div className="grid grid-cols-2 mx-4 gap-4">
-        <div className="img bg-white h-64"></div>
+      <div className="grid grid-cols-2 mx-4 gap-8">
+        <div class="aspect-w-16 aspect-h-9">
+          <img src={img} alt="Furnitto Home" class="object-cover" />
+        </div>
         <div className=" description gap-2">
           <div className="text-2xl pb-4">Summary:</div>
-          <div>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
-            exercitationem perferendis at expedita mollitia doloribus explicabo,
-            quaerat ipsa, reiciendis nesciunt veritatis veniam commodi provident
-            nihil quod quasi hic autem officia!
-          </div>
+          <p>{summary}</p>
           <div className="text-2xl pt-8 pb-4">Tech Stack:</div>
           <div></div>
         </div>

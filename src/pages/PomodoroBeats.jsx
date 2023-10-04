@@ -1,15 +1,17 @@
 import React from "react";
 import ProjectLayout from "../components/ProjectLayout";
+import pomodoroimg from "../assets/pomodorobeats.png";
 
 function YouWhen() {
-  const title = "";
-  const previewLink = "";
-  const codeLink = "";
-  const summary = "";
-  const techStack = "";
-  const img = "";
-
-  return <ProjectLayout title={"Pomodoro Beats"} />;
+  return (
+    <ProjectLayout
+      title={"Pomodoro Beats"}
+      summary={
+        "A chrome extension that is both a pomodoro timer and a spotify player. It offers some of the best study music playlists and also lets you choose from any of your own."
+      }
+      img={pomodoroimg}
+    />
+  );
 }
 
 export default YouWhen;
