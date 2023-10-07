@@ -3,6 +3,7 @@ import React from "react";
 import ProjectLayout from "../components/ProjectLayout";
 
 function ClayCanvas() {
+  const stack = ["NextJs", "Tailwind", "ReactJs"];
   return (
     <ProjectLayout
       title={"Clay Canvas"}
@@ -12,6 +13,7 @@ function ClayCanvas() {
       }
       link={"https://e-commerce-bps1tepqi-0xjariels-projects.vercel.app/"}
       code={"https://github.com/0xJariel/e-commerce"}
+      techStack={stack}
     />
   );
 }

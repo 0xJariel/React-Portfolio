@@ -8,7 +8,7 @@ function Contact() {
 
   return (
     <Layout title={title}>
-      <div className="relative isolate px-6 lg:px-8">
+      <div className=" px-6 md:px-8 sm:px-2">
         <div className="mx-auto max-w-xl lg:max-w-4xl">
           <div className=" flex flex-col gap-16 sm:gap-y-20 lg:flex-row">
             <form action="#" method="POST" className="lg:flex-auto pt-8">
