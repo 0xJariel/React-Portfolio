@@ -8,7 +8,7 @@ function YouWhen() {
     <ProjectLayout
       title={"Pomodoro Beats"}
       summary={
-        "A full stack application converted into chrome extension that is both a pomodoro timer and a spotify player. It offers some of the best study music playlists and also lets you choose from any of your own."
+        "A full stack application converted into a chrome extension that is both a pomodoro timer and a spotify player. It offers some of the best study-music playlists and also lets you choose from any of your own."
       }
       img={pomodoroimg}
       link={""}
