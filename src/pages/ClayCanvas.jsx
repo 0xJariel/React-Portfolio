@@ -8,9 +8,7 @@ function ClayCanvas() {
     <ProjectLayout
       title={"Clay Canvas"}
       img={furnittoImg}
-      summary={
-        "A React front-end shop with modern routing for selling my future home made pottery collection. The site features a modern shopping cart and dynamic description pages."
-      }
+      summary={"A front end demo of a shopping site built with reactjs"}
       link={"https://e-commerce-sooty-zeta.vercel.app/"}
       code={"https://github.com/0xJariel/e-commerce"}
       techStack={stack}
