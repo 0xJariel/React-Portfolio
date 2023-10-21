@@ -3,7 +3,7 @@ import React from "react";
 import ProjectLayout from "../components/ProjectLayout";
 
 function ClayCanvas() {
-  const stack = ["NextJs", "Tailwind", "ReactJs"];
+  const stack = ["Tailwind", "ReactJs"];
   return (
     <ProjectLayout
       title={"Clay Canvas"}
